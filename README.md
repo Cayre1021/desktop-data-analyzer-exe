@@ -4,6 +4,26 @@
 
 它适合不想写代码、但希望快速完成 Excel 数据整理、查看、图表预览和结果导出的用户。项目同时提供 Python 源码与 Windows 目录版 `.exe` 打包能力。
 
+## 下载与运行（Release 版）
+
+如果你只是想直接使用程序，**优先到 GitHub Releases 下载发布包**，不要只拿单独的 `.exe` 文件。
+
+原因是这个项目当前采用的是 **PyInstaller 目录版打包**，运行时除了 `desktop-data-analyzer.exe` 之外，还依赖同目录下的 `_internal/` 文件夹中的 DLL、Qt 插件、Python 扩展和文档资源。
+
+**正确的下载方式：**
+
+1. 进入仓库的 Releases 页面
+2. 下载 `desktop-data-analyzer-exe-v0.1.0-windows.zip`
+3. 解压整个 zip 包
+4. 保持 `desktop-data-analyzer.exe` 与 `_internal/` 文件夹在同一个目录层级
+5. 双击运行 `desktop-data-analyzer.exe`
+
+**不要做的事情：**
+
+- 不要只复制 `desktop-data-analyzer.exe` 单文件到别处运行
+- 不要删除 `_internal/` 文件夹
+- 不要把 exe 和 `_internal/` 拆开
+
 ## 这个项目是干什么的
 
 这个项目的目标是把常见的本地 Excel 处理流程做成一个可直接运行的桌面工具，避免每次都手动在 Excel 里反复点选，或者为了简单处理专门写脚本。
@@ -55,6 +75,12 @@
 
 - `导入 Excel`
 - `新手引导`
+
+## 界面截图
+
+> 下面这张截图基于示例数据自动生成，用于展示当前版本的大致界面布局。
+
+![主界面预览](assets/screenshots/main-window.png)
 
 ## exe 怎么使用
 
@@ -171,6 +197,12 @@ logs/runtime.log
 - 目标文件已被其他程序打开
 - 目标目录没有写入权限
 - 当前没有可导出的处理结果
+
+### 4. 为什么不能只下载一个 exe？
+
+因为当前发布的是 **目录版应用**，exe 只是启动入口，真正运行还依赖 `_internal/` 目录中的动态库和插件资源。
+
+所以 Release 中必须下载并解压完整 zip 包，而不是只保留 exe 文件。
 
 ## 适用边界
 
