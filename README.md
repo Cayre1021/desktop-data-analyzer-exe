@@ -156,6 +156,7 @@ dist/desktop-data-analyzer/
 如果你要继续维护这个项目、发布新版本，建议阅读：
 
 - [`docs/release-process.md`](docs/release-process.md)
+- [`CHANGELOG.md`](CHANGELOG.md)
 
 其中已经整理了：
 
@@ -164,6 +165,7 @@ dist/desktop-data-analyzer/
 - 为什么 Release 必须上传整个目录 zip
 - 每次发版前检查清单
 - GitHub Release 的推荐命令流程
+- 当前和后续版本的变更记录
 
 ## 项目结构
 
