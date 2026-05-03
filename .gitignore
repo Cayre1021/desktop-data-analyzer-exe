@@ -1,0 +1,8 @@
+.worktrees/
+.claude/worktrees/
+build/
+dist/
+logs/
+.pytest_cache/
+__pycache__/
+*.pyc
