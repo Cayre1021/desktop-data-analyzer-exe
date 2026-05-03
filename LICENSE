@@ -1,0 +1,36 @@
+Desktop Data Analyzer Non-Commercial License 1.0
+
+Copyright (c) 2026 Cayre1021
+All rights reserved.
+
+1. Grant of Permission
+You are permitted to:
+- use this project for personal learning, research, evaluation, and other non-commercial purposes;
+- read, copy, and modify the source code for non-commercial purposes;
+- share unmodified or modified copies for non-commercial purposes, provided this license text is included.
+
+2. Commercial Use Prohibited
+You may not, without prior written permission from the copyright holder:
+- sell this project or any substantial portion of it;
+- use this project in any paid product, paid service, commercial distribution, or commercial deployment;
+- integrate this project into software, services, or workflows that directly or indirectly generate revenue;
+- offer hosting, SaaS, consulting delivery, or enterprise/internal paid usage based on this project;
+- sublicense this project for commercial purposes.
+
+3. Attribution and Notices
+Any redistribution of this project or derivative works must:
+- retain this license file;
+- retain existing copyright notices;
+- clearly state that changes were made, if modified.
+
+4. Third-Party Components
+This project depends on third-party libraries and tools. Those components remain subject to their own licenses. This license applies only to the original code and documentation in this repository, unless otherwise noted.
+
+5. No Warranty
+THIS PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE PROJECT OR THE USE OR OTHER DEALINGS IN THE PROJECT.
+
+6. Termination
+Any use of this project in violation of this license automatically terminates the permissions granted under it.
+
+7. Contact
+For commercial licensing or other permission requests, contact the copyright holder through the repository owner account: Cayre1021.
